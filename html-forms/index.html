@@ -6,24 +6,44 @@
 <body>
   <h1>Coding Form!</h1>
   <form>
-    <div>Email</div>
-    <input type="email" name="email" />
-    <div>Why is coding cool?</div>
-    <select name="options">
-      <option value="Select an option">Select an option</option>
-      <option value="Because it's interesting">Because it's interesting</option>
-      <option value="Because it's fun">Because it's fun</option>
-      <option value="Because it's powerful">Because it's powerful</option>
-    </select>
-    <div>Favorite Language (Choose One)
-      <br />
-      <input type="radio" name="language" value="html" />HTML
-      <input type="radio" name="language" value="CSS" />CSS
-      <input type="radio" name="language" value="Javascript" />Javascript
+    <div>
+      <label for="email">Email</label>
+      <div>
+        <input type="email" name="email" id="email">
+      </div>
     </div>
-    <div>would like to sign up for more information?
-      <br />
-      <input type="checkbox" name="information" value="Sign me up!" /> Sign me up!
+    <div>
+      <label for="coding-cool">Why is coding cool?</label>
+      <div>
+        <select name="options" id="coding-cool">
+          <option value="">Select an option</option>
+          <option value="interesting">Because it's interesting</option>
+          <option value="fun">Because it's fun</option>
+          <option value="powerful">Because it's powerful</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <div>Favorite Language (Choose One)</div>
+        <label>
+          <input type="radio" name="language" value="html">
+          HTML
+        </label>
+        <label>
+          <input type="radio" name="language" value="CSS">
+          CSS
+        </label>
+        <label>
+          <input type="radio" name="language" value="Javascript">
+          Javascript
+        </label>
+    </div>
+    <div>
+      <div>would like to sign up for more information?</div>
+        <label>
+          <input type="checkbox" name="information" value="Sign me up!">
+          Sign me up!
+        </label>
     </div>
     <div>Comments</div>
       <textarea name="comments"></textarea>
