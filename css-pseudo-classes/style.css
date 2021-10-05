@@ -1,0 +1,36 @@
+div {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border-width: thin;
+  margin: 5px 5px;
+  background-color: white;
+  font-size: 1.25rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-color: lightgray;
+  border-width: medium;
+}
+
+table {
+  margin-left: 665px;
+  margin-right: auto;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+td {
+  text-align: left;
+}
+
+.table-color {
+  background-color: lightgray;
+}
