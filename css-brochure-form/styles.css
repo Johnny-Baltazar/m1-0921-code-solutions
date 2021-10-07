@@ -1,0 +1,53 @@
+
+h2 {
+  font-size: 1.2rem;
+  margin-left: 13rem;
+  color: salmon;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 550;
+}
+
+input {
+  padding: 7px 20rem 3px 2px;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+  margin: 4px auto 12px 8px;
+  font-size: 20px;
+}
+
+select {
+  padding: 7px 21rem 3px 2px;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+  margin: 4px auto 12px 8px;
+  font-size: 20px;
+}
+
+.engineers {
+  background-color: rgb(228, 228, 228);
+}
+
+input,
+select,
+label,
+button {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 550;
+}
+
+div > label {
+  font-size: 15px;
+  margin-left: 1rem;
+}
+
+button {
+  margin: 5px 0 10px 24.5rem;
+  padding: 8px 30px 8px 30px;
+  border: none;
+  border-radius: 22px;
+  background-color: salmon;
+  color: white;
+  font-size: 20px;
+}
