@@ -1,0 +1,38 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+.character {
+  width: 100%;
+}
+
+.column-fourth {
+  width: calc(100% / 4);
+}
+
+.column-dktext {
+  width: 70%;
+}
+
+.column-dkimg {
+  width: 35%;
+}
+
+.column-marioimg {
+  width: 30%;
+}
+
+.column-mariotext {
+  width: 70%;
+}
