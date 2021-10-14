@@ -1,0 +1,49 @@
+.container {
+  font-family: karla, sans-serif;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.row {
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  text-align: left;
+}
+
+p {
+  line-height: 2;
+}
+
+.row-column {
+  margin-right: 15px;
+}
+
+.right-image {
+  margin-left: 30px;
+}
+
+.column-initial {
+  width: 100%;
+}
+
+.learn-more {
+  color: #e32636;
+  border-color: #e32636;
+  padding: 10px 50px 10px 50px;
+  border-width: thin;
+  margin: 20px;
+  background-color: white;
+}
+
+button:active {
+  color: white;
+  background-color: #e32636;
+}
