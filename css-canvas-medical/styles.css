@@ -1,0 +1,172 @@
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-this {
+  display: flex;
+}
+
+.column-canvas {
+  justify-content: right;
+  align-items: center;
+}
+
+.contact-us {
+  background-color: #006;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 12px;
+}
+
+.canvas-top {
+  position: relative;
+  right: 50px;
+  width: 45%;
+}
+
+.blog {
+  padding: 15px;
+}
+
+.links-top {
+  padding: 10px;
+  color: #c0c0c0;
+  font-family: Avenir, sans-serif;
+  font-weight: 550;
+}
+
+.gray-line {
+  width: 1000px;
+  position: relative;
+  right: 50px;
+  color: lightgray;
+  margin-bottom: 60px;
+}
+
+.row-hero {
+  height: 500px;
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+}
+
+.hero-img {
+  padding-top: 30px;
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+  top: 80px;
+  width: 55%;
+  padding-left: 50px;
+}
+
+.head-light {
+  font-weight: lighter;
+}
+
+.text-avenir {
+  font-family: Avenir, sans-serif;
+}
+
+.get-started {
+  font-family: avenir, sans-serif;
+  background-color: #006;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px 15px 40px;
+  margin-top: 10px;
+}
+
+.clinicians {
+  background-color: lightgray;
+  width: 1000px;
+  position: relative;
+  right: 50px;
+  margin-bottom: 30px;
+}
+
+.row-clinicians {
+  text-align: center;
+  width: 60%;
+  margin-right: 10%;
+  margin-left: 20%;
+  color: #484848;
+}
+
+.row-locations {
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  color: #484848;
+}
+
+.city-location {
+  text-align: center;
+}
+
+.row-learn {
+  color: #484848;
+  align-items: baseline;
+  padding-bottom: 30px;
+}
+
+.learn-more {
+  margin-left: 45px;
+}
+
+.get-learned {
+  position: relative;
+  left: 400px;
+}
+
+.additional-info {
+  background-color: #484848;
+  color: white;
+  padding: 75px;
+  width: 1000px;
+  justify-content: space-between;
+  position: relative;
+  right: 50px;
+}
+
+.white-canvas {
+  width: 45%;
+}
+
+.canvas-address {
+  line-height: 1;
+  padding-top: 35px;
+}
+
+.company-product {
+  margin-right: 100px;
+}
+
+div > h3 {
+  font-weight: lighter;
+}
+
+.row-privacy {
+  background-color: lightgray;
+  width: 1000px;
+  position: relative;
+  right: 50px;
+}
+
+.privacy-contact {
+  padding: 30px 0 30px 70px;
+}
