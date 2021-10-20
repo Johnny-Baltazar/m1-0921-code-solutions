@@ -1,0 +1,48 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  font-family: 'barlow', sans-serif;
+}
+
+.row-one,
+.row-two {
+  display: flex;
+  justify-content: center;
+}
+
+.screen-one {
+  margin-right: 30px;
+}
+
+.column-screens {
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.screen-center {
+  text-align: center;
+}
+
+.screen-img {
+  width: 100%;
+}
+
+.icon-img {
+  width: 30%;
+}
+
+div > h3 {
+  font-weight: 800;
+}
+
+div > p {
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.works {
+  font-weight: 800;
+}
