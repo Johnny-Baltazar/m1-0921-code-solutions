@@ -1,0 +1,68 @@
+.container {
+  font-family: dm sans, sans-serif;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.middle-row {
+  display: flex;
+  justify-content: center;
+}
+
+.product-image {
+  width: calc(150% / 5);
+  margin: 0 10px 0 10px;
+}
+
+.bottom-row {
+  display: flex;
+  width: 155%;
+  position: relative;
+  right: 200px;
+  justify-content: space-between;
+}
+
+.gray-text {
+  color: lightgray;
+  font-weight: 500;
+  border-color: lightgray;
+  background-color: white;
+}
+
+.product-text {
+  font-weight: bold;
+}
+
+.text-one {
+  position: relative;
+  right: 30px;
+}
+
+.text-two {
+  position: relative;
+  right: 30px;
+}
+
+.text-three {
+  position: relative;
+  right: 85px;
+}
+
+.text-four {
+  position: relative;
+  right: 70px;
+}
+
+.text-five {
+  position: relative;
+  right: 90px;
+}
+
+.price-color {
+  background-color: #fffacd;
+}
