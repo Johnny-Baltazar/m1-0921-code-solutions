@@ -1,16 +1,16 @@
-var $modalBox = document.querySelector('.modal-box');
-var $modalButton = document.querySelector('.modal-button');
+var $modalOpen = document.querySelector('.modal-close');
+var $openButton = document.querySelector('.open-button');
 
-$modalButton.addEventListener('click', openDialog);
+$openButton.addEventListener('click', openSurveyBox);
 
-function openDialog(event) {
-  $modalBox.showModal();
+function openSurveyBox(event) {
+  $modalOpen.className = 'modal-open';
 }
 
 var $noButton = document.querySelector('.no-button');
 
-$noButton.addEventListener('click', closeDialog);
+$noButton.addEventListener('click', closeSurveyBox);
 
-function closeDialog(event) {
-  $modalBox.close();
+function closeSurveyBox(event) {
+  $modalOpen.className = 'modal-close';
 }
