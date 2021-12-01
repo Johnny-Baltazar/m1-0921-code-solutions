@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 740px;
+  align-items: center;
+}
+
+.grumpy-wiz {
+  font-family: cursive, serif;
+}
+
+.first-span {
+  font-family: cursive, serif;
+  border-bottom: 3px solid;
+}
+
+.happy-wizard {
+  font-family: cursive, serif;
+  color: #00ff40;
+}
+
+.angry-wizard {
+  font-family: cursive, serif;
+  color: red;
+  border-bottom: 3px solid;
+}
+
+.before-keyed {
+  border-bottom: 3px solid;
+  font-family: cursive, serif;
+}
